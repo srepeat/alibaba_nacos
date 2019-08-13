@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: nacos_discovery_consumer
+  cloud:
+    nacos:
+     discovery:
+      server-addr: 192.168.255.1:8848
+
+server:
+  port: 8050
